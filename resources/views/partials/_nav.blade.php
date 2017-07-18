@@ -18,6 +18,7 @@
             <li class="{{Request::is('/')?"active":""}}"><a href="/">Дома</a></li>
             <li class="{{Request::is('about')?"active":""}}"><a href="/about">За мене</a></li>
             <li class="{{Request::is('contact')?'active':''}}"><a href="/contact">Контакт</a></li>
+            <li class="{{Request::is('/posts')?'active':''}}"><a href="/posts">Постови </a></li>
           </ul>       
 
           <ul class="nav navbar-nav navbar-right">
